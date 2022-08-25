@@ -2,6 +2,8 @@
 
 🚨 Note that this project does not create our backend servies via the Amplify CLI, but relies on exported values from the AWS CDK.
 
+🚨 This application is part of a blog post that explains both the frontend and the backend as a whole. The backend repo can be found [here](https://github.com/Focus-Otter/fullstack-cdk-helpers/blob/main/README.md)
+
 ![ezgif-5-31ccf9d033](https://user-images.githubusercontent.com/5106417/184162547-1a3ab9b4-8f91-4a81-be58-f6af35469e02.gif)
 
 ## Overview
@@ -21,7 +23,7 @@ This repo is the frontend to building a fullstack chat app. The backend can be f
 
 ## Steps to get started
 
-Once the backend is deployed, it will output a set of values. The outputted values are what you'll need to get this project working.
+Once [the backend ](https://github.com/Focus-Otter/fullstack-cdk-helpers/blob/main/README.md) is deployed, it will output a set of values. The outputted values are what you'll need to get this project working.
 
 1. Run `amplify init`
 2. Run `amplify add codegen --apiId YOUR_APPID` (value generated from the backend)
