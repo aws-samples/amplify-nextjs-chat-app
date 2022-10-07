@@ -1,6 +1,6 @@
 ## Modern Chat app Frontend
 
-🚨 Note that this project does not create our backend servies via the Amplify CLI, but relies on exported values from the AWS CDK.
+🚨 Note that this project does not create our backend services via the Amplify CLI, but relies on exported values from the AWS CDK.
 
 🚨 This application is part of a blog post that explains both the frontend and the backend as a whole. The backend repo can be found [here](https://github.com/Focus-Otter/fullstack-cdk-helpers/blob/main/README.md)
 
