@@ -4,6 +4,8 @@ const awsmobile = {
 		region: 'your-region',
 		userPoolId: 'your-region_YOUR_REGION_ID',
 		userPoolWebClientId: '6vstsuciYOURCLIENTID',
+		identityPoolId: 'identitypoolID',
+		
 	},
 	Storage: {
 		AWSS3: {
