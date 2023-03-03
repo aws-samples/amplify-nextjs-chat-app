@@ -42,6 +42,10 @@ function RoomPage({ roomsList, currentRoomData, username }) {
 			createNewMsg(undefined, imgKey).then(({ data }) =>
 				setMessages([data.createMessage, ...messages])
 			)
+		} else if (newMessage && imgKey) {
+			createNewMsg(newMessage, imgKey).then(({ data }) =>
+				setMessages([data.createMessage, ...messages])
+			)
 		}
 	}
 
